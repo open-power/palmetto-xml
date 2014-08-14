@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- IBM_PROLOG_BEGIN_TAG                                                   -->
 <!-- This is an automatically generated prolog.                             -->
 <!--                                                                        -->
@@ -22,13 +23,12 @@
 <!-- permissions and limitations under the License.                         -->
 <!--                                                                        -->
 <!-- IBM_PROLOG_END_TAG                                                     -->
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/mrwb/serverwiz/com.ibm.njames.serverwiz/src/com/ibm/njames/serverwiz/designer/model/LogicDiagram.java,v 1.54 2013/06/06 10:00:03 kpachar Exp $ --><card xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
-	
+
 	<id>palmetto_board</id>
 	<card-type>planar</card-type>
 	<description></description>
-	
+
 	<parts-used>
 		<part-used><part-id>VRD_NOI2C</part-id></part-used>
 		<part-used><part-id>TULETA_FSP2</part-id></part-used>

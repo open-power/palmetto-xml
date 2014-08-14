@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- IBM_PROLOG_BEGIN_TAG                                                   -->
 <!-- This is an automatically generated prolog.                             -->
 <!--                                                                        -->
@@ -22,8 +23,7 @@
 <!-- permissions and limitations under the License.                         -->
 <!--                                                                        -->
 <!-- IBM_PROLOG_END_TAG                                                     -->
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto-proc-chip-ids.xml,v 1.1 2014/08/12 18:16:22 spinler Exp $ --> 
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto-proc-chip-ids.xml,v 1.1 2014/08/12 18:16:22 spinler Exp $ -->
 
 <!-- Contains the logical chip id (node and position on node) for all processors -->
 

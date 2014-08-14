@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- IBM_PROLOG_BEGIN_TAG                                                   -->
 <!-- This is an automatically generated prolog.                             -->
 <!--                                                                        -->
@@ -22,7 +23,6 @@
 <!-- permissions and limitations under the License.                         -->
 <!--                                                                        -->
 <!-- IBM_PROLOG_END_TAG                                                     -->
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/Attic/palmetto.xml,v 1.3 2014/08/12 15:04:05 spinler Exp $ -->
 <system xmlns:xi="http://www.w3.org/2001/XInclude"
   	xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw"
