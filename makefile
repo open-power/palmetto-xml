@@ -53,7 +53,7 @@ xxx-power-busses.xml \
 xxx-mru-ids.xml \
 xxx-location-codes.xml
 
-NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml
+NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml ${OUTPUT_PATH}/%-pm-settings.xml
 .SECONDARY:
 .DEFAULT_GOAL := error
 error:
@@ -73,7 +73,7 @@ $(patsubst clean,,$(MAKECMDGOALS)): $(patsubst %,%.done,$(MAKECMDGOALS))
 %.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml ${NON_BUILTS}
 	touch $@
 
-${NON_BUILTS}:
+${OUTPUT_PATH}/%.xml:
 	@echo "=== Copying non-built $@ ==="
 	cp ${patsubst ${OUTPUT_PATH}/%,%, $@} ${OUTPUT_PATH}/
 
