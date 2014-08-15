@@ -53,7 +53,7 @@ xxx-power-busses.xml \
 xxx-mru-ids.xml \
 xxx-location-codes.xml
 
-NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml ${OUTPUT_PATH}/%-pm-settings.xml
+NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml ${OUTPUT_PATH}/%-pm-settings.xml ${OUTPUT_PATH}/%-proc-pcie-settings.xml
 .SECONDARY:
 .DEFAULT_GOAL := error
 error:
