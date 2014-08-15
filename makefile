@@ -26,6 +26,11 @@
 ## src/mrw/xml/data/makefile
 ################################################################################
 
+$(if ${OUTPUT_PATH},, $(error OUTPUT_PATH must be defined) )
+$(if ${PARSER_PATH},, $(error PARSER_PATH must be defined) )
+$(if ${XSL_PATH},, $(error XSL_PATH must be defined) )
+$(if ${SCHEMA_FILE},, $(error SCHEMA_FILE must be defined) )
+
 # Uncomment to get extra debug statements from parser code
 VERBOSE = --verbose
 
@@ -48,6 +53,8 @@ xxx-power-busses.xml \
 xxx-mru-ids.xml \
 xxx-location-codes.xml
 
+NON_BUILTS = ${OUTPUT_PATH}/%-system-policy.xml
+.SECONDARY:
 .DEFAULT_GOAL := error
 error:
 	@echo "Please specify a system name or target"
@@ -63,8 +70,12 @@ clean:
 $(patsubst clean,,$(MAKECMDGOALS)): $(patsubst %,%.done,$(MAKECMDGOALS))
 	@echo "=== MRW for $(MAKECMDGOALS) was built ==="
 
-%.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml
+%.done : %-full.xml %-targets.xml %-cec-chips.xml %-chip-ids.xml %-dmi-busses.xml %-fsi-busses.xml %-i2c-busses.xml %-memory-busses.xml %-pcie-busses.xml %-cent-vrds.xml %-power-busses.xml %-mru-ids.xml %-location-codes.xml ${NON_BUILTS}
 	touch $@
+
+${NON_BUILTS}:
+	@echo "=== Copying non-built $@ ==="
+	cp ${patsubst ${OUTPUT_PATH}/%,%, $@} ${OUTPUT_PATH}/
 
 %-full.xml : %-pre-include.xml
 	@echo "=== Generating Full XML document from $< ==="
