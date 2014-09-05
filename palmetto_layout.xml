@@ -1,45 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- IBM_PROLOG_BEGIN_TAG                                                   -->
-<!-- This is an automatically generated prolog.                             -->
-<!--                                                                        -->
-<!-- $Source: palmetto_layout.xml $                                         -->
-<!--                                                                        -->
-<!-- OpenPOWER HostBoot Project                                             -->
-<!--                                                                        -->
-<!-- Contributors Listed Below - COPYRIGHT 2014                             -->
-<!-- [+] International Business Machines Corp.                              -->
-<!--                                                                        -->
-<!--                                                                        -->
-<!-- Licensed under the Apache License, Version 2.0 (the "License");        -->
-<!-- you may not use this file except in compliance with the License.       -->
-<!-- You may obtain a copy of the License at                                -->
-<!--                                                                        -->
-<!--     http://www.apache.org/licenses/LICENSE-2.0                         -->
-<!--                                                                        -->
-<!-- Unless required by applicable law or agreed to in writing, software    -->
-<!-- distributed under the License is distributed on an "AS IS" BASIS,      -->
-<!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or        -->
-<!-- implied. See the License for the specific language governing           -->
-<!-- permissions and limitations under the License.                         -->
-<!--                                                                        -->
-<!-- IBM_PROLOG_END_TAG                                                     -->
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/mrwb/serverwiz/com.ibm.njames.serverwiz/src/com/ibm/njames/serverwiz/designer/actions/ExportLayoutAction.java,v 1.23 2014/02/04 18:12:32 jabradha Exp $ -->
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto_layout.xml,v 1.2 2014/08/20 01:46:47 mashak Exp $ -->
 <layout xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
 <parts xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
-	<xi:include href="TUSB7340.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="TULETA_FSP2.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PCIE_X8_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="LANCER_B0.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PEX8718_PALMETTO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCIE_X8_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PCIE_X16_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PEX8718_PALMETTO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 </parts>
 <cards xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
 	<xi:include href="turismo_scm.xml"/>
