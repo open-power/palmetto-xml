@@ -53,5 +53,9 @@
 
 <optional-policy-settings>
 	<title>System Policy Settings for Palmetto</title>
+    <!-- In Mhz -->
+    <minimum-frequency>1400</minimum-frequency>
+    <nominal-frequency>3000</nominal-frequency>
+    <maximum-frequency>4000</maximum-frequency>
     </optional-policy-settings>
 </system-policy-settings>
