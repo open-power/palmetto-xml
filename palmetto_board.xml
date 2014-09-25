@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto_board.xml,v 1.4 2014/09/09 18:12:50 mashak Exp $ --><card xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto_board.xml,v 1.5 2014/09/18 17:44:49 mashak Exp $ --><card xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
 
 <id>palmetto_board</id>
 <card-type>planar</card-type>
@@ -38,9 +38,9 @@
 <dmis>
 	<dmi>
 		<id>dmi0</id>
-		<rx-msb-lsb-swap>No</rx-msb-lsb-swap>
 		<mcs-refclock-enable-mapping>2</mcs-refclock-enable-mapping>
-		<downstream_n_p_lane_swap_mask>0x00000000</downstream_n_p_lane_swap_mask>
+		<rx-msb-lsb-swap>No</rx-msb-lsb-swap>
+		<downstream_n_p_lane_swap_mask>0x31A50000</downstream_n_p_lane_swap_mask>
 		<tx-msb-lsb-swap>Yes</tx-msb-lsb-swap>
 		<upstream_n_p_lane_swap_mask>0x00000000</upstream_n_p_lane_swap_mask>
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>DMI</unit-name></source>
@@ -54,11 +54,6 @@
 		<endpoint><connector-instance-id>JDIMM3</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
 	</ddr>
 	<ddr>
-		<id>ddr5</id>
-		<source><part-instance-id>UCENT</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
-		<endpoint><connector-instance-id>JDIMM1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
-	</ddr>
-	<ddr>
 		<id>ddr2</id>
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>DDR3_PORTA_SLOT0</unit-name></source>
 		<endpoint><connector-instance-id>JDIMM0</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
@@ -68,13 +63,18 @@
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>DDR3_PORTB_SLOT0</unit-name></source>
 		<endpoint><connector-instance-id>JDIMM2</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
 	</ddr>
+	<ddr>
+		<id>ddr5</id>
+		<source><part-instance-id>UCENT</part-instance-id><unit-name>DDR3_PORTC_SLOT0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM1</connector-instance-id><pin-name>DDR3_CH</pin-name></endpoint>
+	</ddr>
 </ddrs>
 <pcies>
 	<pcie>
 		<id>pcie2</id>
 		<pcie-lane-swap-bits>000</pcie-lane-swap-bits>
-		<pci-lsi>Yes</pci-lsi>
 		<pci-card-size>FHFL</pci-card-size>
+		<pci-lsi>Yes</pci-lsi>
 		<pci-gen>3</pci-gen>
 		<pcie-capi>Yes</pcie-capi>
 		<pci-slot-index>0</pci-slot-index>
@@ -82,8 +82,8 @@
 		<pci-is-slot>Yes</pci-is-slot>
 		<default-power-consumption>30</default-power-consumption>
 		<default-pcie-cooling-type>1</default-pcie-cooling-type>
-		<pci-width>8</pci-width>
 		<pcie-lane-reversal-bits>000</pcie-lane-reversal-bits>
+		<pci-width>8</pci-width>
 		<hx-logical-device-select>0</hx-logical-device-select>
 		<source><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE1</pin-name></source>
 		<endpoint><part-instance-id>U0</part-instance-id><unit-name>INBOUND_X8</unit-name></endpoint>
@@ -91,8 +91,8 @@
 	<pcie>
 		<id>pcie20</id>
 		<pcie-lane-swap-bits>000</pcie-lane-swap-bits>
-		<pci-lsi>Yes</pci-lsi>
 		<pci-card-size>FHFL</pci-card-size>
+		<pci-lsi>Yes</pci-lsi>
 		<pci-gen>3</pci-gen>
 		<pcie-capi>Yes</pcie-capi>
 		<pci-slot-index>0</pci-slot-index>
@@ -100,8 +100,8 @@
 		<pci-is-slot>Yes</pci-is-slot>
 		<default-power-consumption>30</default-power-consumption>
 		<default-pcie-cooling-type>1</default-pcie-cooling-type>
-		<pci-width>8</pci-width>
 		<pcie-lane-reversal-bits>000</pcie-lane-reversal-bits>
+		<pci-width>8</pci-width>
 		<hx-logical-device-select>0</hx-logical-device-select>
 		<source><connector-instance-id>JSLOT1</connector-instance-id><pin-name>PCIE_X8</pin-name></source>
 		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE1</pin-name></endpoint>
@@ -109,8 +109,8 @@
 	<pcie>
 		<id>pcie17</id>
 		<pcie-lane-swap-bits>000</pcie-lane-swap-bits>
-		<pci-lsi>Yes</pci-lsi>
 		<pci-card-size>FHFL</pci-card-size>
+		<pci-lsi>Yes</pci-lsi>
 		<pci-gen>3</pci-gen>
 		<pcie-capi>Yes</pcie-capi>
 		<pci-slot-index>0</pci-slot-index>
@@ -118,8 +118,8 @@
 		<pci-is-slot>Yes</pci-is-slot>
 		<default-power-consumption>30</default-power-consumption>
 		<default-pcie-cooling-type>1</default-pcie-cooling-type>
-		<pci-width>16</pci-width>
 		<pcie-lane-reversal-bits>000</pcie-lane-reversal-bits>
+		<pci-width>16</pci-width>
 		<hx-logical-device-select>0</hx-logical-device-select>
 		<source><connector-instance-id>JSLOT0</connector-instance-id><pin-name>PCIE_X16</pin-name></source>
 		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>PCIE0</pin-name></endpoint>
@@ -146,44 +146,44 @@
 </powers>
 <i2cs>
 	<i2c>
-		<id>i2c32</id>
-		<use-for-presence-detect>No</use-for-presence-detect>
-		<speed>400</speed>
-		<address>0xAA</address>
-		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
-		<endpoint><connector-instance-id>JDIMM3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
-	</i2c>
-	<i2c>
 		<id>i2c26</id>
 		<use-for-presence-detect>No</use-for-presence-detect>
-		<speed>400</speed>
 		<address>0xA6</address>
+		<speed>400</speed>
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
 		<endpoint><connector-instance-id>JDIMM1</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
 	</i2c>
 	<i2c>
+		<id>i2c32</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xAA</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM3</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
 		<id>i2c11</id>
 		<use-for-presence-detect>No</use-for-presence-detect>
-		<speed>400</speed>
 		<address>0x40</address>
+		<speed>400</speed>
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CSPR_DIMMS0</unit-name></source>
 		<endpoint><part-instance-id>U11</part-instance-id><unit-name>I2C</unit-name></endpoint>
 	</i2c>
 	<i2c>
-		<id>i2c23</id>
-		<use-for-presence-detect>No</use-for-presence-detect>
-		<speed>400</speed>
-		<address>0xA4</address>
-		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
-		<endpoint><connector-instance-id>JDIMM0</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
-	</i2c>
-	<i2c>
 		<id>i2c29</id>
 		<use-for-presence-detect>No</use-for-presence-detect>
-		<speed>400</speed>
 		<address>0xA8</address>
+		<speed>400</speed>
 		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
 		<endpoint><connector-instance-id>JDIMM2</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
+	</i2c>
+	<i2c>
+		<id>i2c23</id>
+		<use-for-presence-detect>No</use-for-presence-detect>
+		<address>0xA4</address>
+		<speed>400</speed>
+		<source><part-instance-id>UCENT</part-instance-id><unit-name>I2CMASTER_DIMMS0</unit-name></source>
+		<endpoint><connector-instance-id>JDIMM0</connector-instance-id><pin-name>I2CMASTER_DIMM</pin-name></endpoint>
 	</i2c>
 </i2cs>
 <fsis>
