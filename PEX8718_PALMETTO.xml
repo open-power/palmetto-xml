@@ -23,7 +23,7 @@
 <!-- permissions and limitations under the License.                         -->
 <!--                                                                        -->
 <!-- IBM_PROLOG_END_TAG                                                     -->
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/parts/PEX8718_PALMETTO.xml,v 1.1 2014/03/25 00:50:54 njames Exp $ -->
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/parts/PEX8718_PALMETTO.xml,v 1.2 2014/11/19 16:13:45 spinler Exp $ -->
 <parts xmlns:xi="http://www.w3.org/2001/XInclude"
   	xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw"
     xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"
@@ -63,7 +63,6 @@
 				<id>1.8V</id>
 				<pin-name>VCC</pin-name>
 				<voltage voltage-units="Volts">1.8</voltage>
-				<!-- ahxx: removed extra "t>" at end of line -->
 				<current-nom current-units="Amps">0.01</current-nom>
 				<current-max current-units="Amps">0.02</current-max>
 			</power-input-unit>
