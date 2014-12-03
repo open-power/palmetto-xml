@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IBM_PROLOG_BEGIN_TAG                                                   -->
+<!-- This is an automatically generated prolog.                             -->
+<!--                                                                        -->
+<!-- $Source: PEX8718_PALMETTO.xml $                                        -->
+<!--                                                                        -->
+<!-- OpenPOWER HostBoot Project                                             -->
+<!--                                                                        -->
+<!-- Contributors Listed Below - COPYRIGHT 2014                             -->
+<!-- [+] International Business Machines Corp.                              -->
+<!--                                                                        -->
+<!--                                                                        -->
+<!-- Licensed under the Apache License, Version 2.0 (the "License");        -->
+<!-- you may not use this file except in compliance with the License.       -->
+<!-- You may obtain a copy of the License at                                -->
+<!--                                                                        -->
+<!--     http://www.apache.org/licenses/LICENSE-2.0                         -->
+<!--                                                                        -->
+<!-- Unless required by applicable law or agreed to in writing, software    -->
+<!-- distributed under the License is distributed on an "AS IS" BASIS,      -->
+<!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or        -->
+<!-- implied. See the License for the specific language governing           -->
+<!-- permissions and limitations under the License.                         -->
+<!--                                                                        -->
+<!-- IBM_PROLOG_END_TAG                                                     -->
+<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/parts/PEX8718_PALMETTO.xml,v 1.2 2014/11/19 16:13:45 spinler Exp $ -->
+<parts xmlns:xi="http://www.w3.org/2001/XInclude"
+  	xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"
+    >
+
+<part>
+	<id>PEX8718_PALMETTO</id>
+	<part-class>chip</part-class>
+	<part-type>pcie-switch</part-type>
+	<part-num>x0pxxxx</part-num>
+	<description>PLX 18 lane PCIe Gen3 Switch</description>
+	<units>
+		<i2c-slave-units>
+			<i2c-slave-unit><id>I2C</id><pin-name>SDA</pin-name></i2c-slave-unit>
+		</i2c-slave-units>
+		<pcie-upstream-bridges>
+			<pcie-upstream-bridge><id>INBOUND_X8</id><direction>OUT</direction><width>8</width><station>0</station><port>0</port></pcie-upstream-bridge>
+		</pcie-upstream-bridges>
+	        <gpio-slave-units>
+                        <gpio-slave-unit><id>RESET</id><pin-name>RESET</pin-name></gpio-slave-unit>
+                </gpio-slave-units>
+		<pcie-downstream-bridges>
+			<pcie-downstream-bridge><id>S0_X2</id><direction>IN</direction><width>2</width><station>0</station><port>0</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S1_X2</id><direction>IN</direction><width>2</width><station>1</station><port>1</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S2_X1</id><direction>IN</direction><width>1</width><station>2</station><port>2</port></pcie-downstream-bridge>
+			<pcie-downstream-bridge><id>S3_X1</id><direction>IN</direction><width>1</width><station>3</station><port>3</port></pcie-downstream-bridge>
+		</pcie-downstream-bridges>
+		<power-input-units>
+			<power-input-unit>
+				<id>0.9V</id>
+				<pin-name>VLOGIC</pin-name>
+				<voltage voltage-units="Volts">0.9</voltage>
+				<current-nom current-units="Amps">0.01</current-nom>
+				<current-max current-units="Amps">0.02</current-max>
+			</power-input-unit>
+			<power-input-unit>
+				<id>1.8V</id>
+				<pin-name>VCC</pin-name>
+				<voltage voltage-units="Volts">1.8</voltage>
+				<current-nom current-units="Amps">0.01</current-nom>
+				<current-max current-units="Amps">0.02</current-max>
+			</power-input-unit>
+		</power-input-units>
+	</units>
+</part>
+
+</parts>
