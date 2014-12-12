@@ -51,7 +51,7 @@
 	<part-instance><id>U11</id><part-id>PCA9538</part-id><position>0</position></part-instance>
 	<part-instance><id>UVMEM</id><part-id>VRD_NOI2C</part-id><position>0</position><number-of-phases>1</number-of-phases><voltage-out>1.35</voltage-out><power-efficiency>90</power-efficiency></part-instance>
 	<part-instance><id>U4</id><part-id>PGOOD_LAYERBRIDGE</part-id><position>0</position></part-instance>
-	<part-instance><id>U2</id><part-id>VPD</part-id><position>0</position><content-type>PLANAR_VPD</content-type><seeprom-byte-address-offset></seeprom-byte-address-offset><seeprom-write-page-boundary></seeprom-write-page-boundary><seeprom-memory-size></seeprom-memory-size><vpd-size>24c256</vpd-size></part-instance>
+	<part-instance><id>U2</id><part-id>VPD</part-id><position>0</position><content-type>ALL_CENTAUR_VPD</content-type><seeprom-byte-address-offset></seeprom-byte-address-offset><seeprom-write-page-boundary></seeprom-write-page-boundary><seeprom-memory-size></seeprom-memory-size><vpd-size>24c256</vpd-size></part-instance>
 	<part-instance><id>U1</id><part-id>PALMETTO_APSS</part-id><position>0</position><ec-level>1</ec-level></part-instance>
 </part-instances>
 <connector-instances>
@@ -203,7 +203,7 @@
 		<speed>400</speed>
 		<address>0xA0</address>
 		<source><part-instance-id>U2</part-instance-id><unit-name>I2C</unit-name></source>
-		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>I2C LIGHTPATH</pin-name></endpoint>
+		<endpoint><connector-instance-id>JSCM</connector-instance-id><pin-name>I2C_VPD</pin-name></endpoint>
 	</i2c>
 	<i2c>
 		<id>i2c32</id>
