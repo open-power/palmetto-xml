@@ -1409,7 +1409,7 @@
 	<value>membuf-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CENTAUR0</value>
 	</property>
 	<property>
@@ -1453,7 +1453,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM2</value>
 	</property>
 	<property>
@@ -1486,7 +1486,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM3</value>
 	</property>
 	<property>
@@ -1554,7 +1554,7 @@
 	<value>proc</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>CPU0</value>
 	</property>
 	<property>
@@ -1636,7 +1636,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM0</value>
 	</property>
 	<property>
@@ -1655,7 +1655,7 @@
 	<value>sys-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value></value>
 	</property>
 	<property>
@@ -1674,7 +1674,7 @@
 	<value>dimm-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>DIMM1</value>
 	</property>
 	<property>
@@ -1693,7 +1693,7 @@
 	<value>node-0</value>
 	</property>
 	<property>
-	<id>IPMI_NAME</id>
+	<id>FRU_NAME</id>
 	<value>PLANAR</value>
 	</property>
 	<property>
@@ -1830,7 +1830,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -2202,7 +2202,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -2924,7 +2924,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -3087,7 +3087,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -5759,7 +5759,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -6691,7 +6691,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>IPMI_NAME</id>
+		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
 	<attribute>
