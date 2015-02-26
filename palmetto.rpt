@@ -11,32 +11,32 @@
         SYS0_PS_Derating_Factor |       SYS0 |  0x15  | 0xC8 | 0x36 |    0 |    0 | /sys-0
                       SYS0_Freq |       SYS0 |  0x08  | 0xC1 | 0x30 |    0 |    0 | /sys-0
              Memory_Proc0_Power |            |  0xD7  | 0xC2 | 0x87 |    5 |    0 | /sys-0
-             Memory_Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Memory_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Memory_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+             Memory_Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Memory_Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Memory_Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                     Proc0_Power |            |  0xD7  | 0xC2 | 0x83 |    1 |    0 | /sys-0
-                    Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+                    Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                PCIE_Proc0_Power |            |  0xD7  | 0xC2 | 0x84 |    2 |    0 | /sys-0
-               PCIE_Proc1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-               PCIE_Proc2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-               PCIE_Proc3_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+               PCIE_Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+               PCIE_Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+               PCIE_Proc3_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
                      IO_A_Power |            |  0xD7  | 0xC2 | 0x85 |    3 |    0 | /sys-0
-                     IO_B_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                     IO_C_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Fan_Power_A |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    Fan_Power_B |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                Storage_Power_A |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                Storage_Power_B |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Total_System_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-             Memory_Cache_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-           Memory_Proc0_0_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-           Memory_Proc0_1_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-           Memory_Proc0_2_Power |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                       12VSense |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                    GroundSense |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
-                       GPUSense |            |  0xD7  | 0xC2 |      |    0 |    0 | /sys-0
+                     IO_B_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                     IO_C_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Fan_Power_A |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    Fan_Power_B |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                Storage_Power_A |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                Storage_Power_B |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Total_System_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+             Memory_Cache_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+           Memory_Proc0_0_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+           Memory_Proc0_1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+           Memory_Proc0_2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                       12VSense |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                    GroundSense |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
+                       GPUSense |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
        PLANAR_Motherboard_Fault |     PLANAR |  0x07  | 0xC7 | 0x34 |    0 |    2 | /sys-0/node-0
                PLANAR_Ref_Clock |     PLANAR |  0xD4  | 0xC7 | 0x37 |    0 |    2 | /sys-0/node-0
                PLANAR_PCI_Clock |     PLANAR |  0xD5  | 0xC7 | 0x38 |    0 |    2 | /sys-0/node-0

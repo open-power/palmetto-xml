@@ -1,5 +1,13 @@
 <devices>
 <device>
+	<name>APSS Fault</name>
+	<dev_name>APSS_Fault</dev_name>
+	<sensor_id>58</sensor_id>
+	<entity_id>0xd7</entity_id>
+	<sensor_type>0xc7</sensor_type>
+	<entity_instance>0x0</entity_instance>
+</device>
+<device>
 	<name>CPU Core Temp 8</name>
 	<dev_name>Temp</dev_name>
 	<sensor_id>113</sensor_id>
