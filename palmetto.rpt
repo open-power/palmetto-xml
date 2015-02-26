@@ -1,15 +1,15 @@
                     Sensor Name |   FRU Name | Ent ID | Type |   ID | Inst |  FRU | Target
  ------------------------------ | ---------- | ------ | ---- | ---- | ---- | ---- | ----------
-              SYS0_System_Event |       SYS0 |  0x01  | 0x12 | 0x35 |    0 |    0 | /sys-0
-               SYS0_Host_Status |       SYS0 |  0x23  | 0x22 | 0x04 |    0 |    0 | /sys-0
-    SYS0_Firmware_Boot_Progress |       SYS0 |  0x22  | 0x0F | 0x05 |    0 |    0 | /sys-0
-         SYS0_PCIE_Link_Present |       SYS0 |  0x23  | 0xC4 | 0x31 |    0 |    0 | /sys-0
-                   SYS0_OS_Boot |       SYS0 |  0x23  | 0x1F | 0x32 |    0 |    0 | /sys-0
-                 SYS0_Power_Cap |       SYS0 |  0x17  | 0xC2 | 0x33 |    0 |    0 | /sys-0
-                SYS0_Boot_count |       SYS0 |  0x22  | 0xC3 | 0x09 |    0 |    0 | /sys-0
-        SYS0_Power_Limit_Active |       SYS0 |  0x15  | 0xC6 | 0x36 |    0 |    0 | /sys-0
-        SYS0_PS_Derating_Factor |       SYS0 |  0x15  | 0xC8 | 0x36 |    0 |    0 | /sys-0
-                      SYS0_Freq |       SYS0 |  0x08  | 0xC1 | 0x30 |    0 |    0 | /sys-0
+              SYS0_System_Event |       SYS0 |  0x01  | 0x12 | 0x35 |    0 |   13 | /sys-0
+               SYS0_Host_Status |       SYS0 |  0x23  | 0x22 | 0x04 |    0 |   13 | /sys-0
+    SYS0_Firmware_Boot_Progress |       SYS0 |  0x22  | 0x0F | 0x05 |    0 |   13 | /sys-0
+         SYS0_PCIE_Link_Present |       SYS0 |  0x23  | 0xC4 | 0x31 |    0 |   13 | /sys-0
+                   SYS0_OS_Boot |       SYS0 |  0x23  | 0x1F | 0x32 |    0 |   13 | /sys-0
+                 SYS0_Power_Cap |       SYS0 |  0x17  | 0xC2 | 0x33 |    0 |   13 | /sys-0
+                SYS0_Boot_count |       SYS0 |  0x22  | 0xC3 | 0x09 |    0 |   13 | /sys-0
+        SYS0_Power_Limit_Active |       SYS0 |  0x15  | 0xC6 | 0x36 |    0 |   13 | /sys-0
+        SYS0_PS_Derating_Factor |       SYS0 |  0x15  | 0xC8 | 0x36 |    0 |   13 | /sys-0
+                      SYS0_Freq |       SYS0 |  0x08  | 0xC1 | 0x30 |    0 |   13 | /sys-0
              Memory_Proc0_Power |            |  0xD7  | 0xC2 | 0x87 |    5 |    0 | /sys-0
              Memory_Proc1_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
              Memory_Proc2_Power |            |  0xD7  | 0xC2 |  N/A |    0 |    0 | /sys-0
@@ -41,6 +41,7 @@
                PLANAR_Ref_Clock |     PLANAR |  0xD4  | 0xC7 | 0x37 |    0 |    2 | /sys-0/node-0
                PLANAR_PCI_Clock |     PLANAR |  0xD5  | 0xC7 | 0x38 |    0 |    2 | /sys-0/node-0
                PLANAR_TOD_Clock |     PLANAR |  0xD6  | 0xC7 | 0x39 |    0 |    2 | /sys-0/node-0
+              PLANAR_APSS_Fault |     PLANAR |  0xD7  | 0xC7 | 0x3A |    0 |    2 | /sys-0/node-0
                      DIMM0_Temp |      DIMM0 |  0x20  | 0x01 | 0x66 |    0 |    3 | /sys-0/node-0/motherboard-0/dimmconn-0/dimm-0
                      DIMM0_Func |      DIMM0 |  0x20  | 0x0C | 0x1E |    0 |    3 | /sys-0/node-0/motherboard-0/dimmconn-0/dimm-0
                      DIMM1_Temp |      DIMM1 |  0x20  | 0x01 | 0x67 |    1 |    4 | /sys-0/node-0/motherboard-0/dimmconn-1/dimm-0
@@ -49,8 +50,8 @@
                      DIMM2_Func |      DIMM2 |  0x20  | 0x0C | 0x20 |    2 |    5 | /sys-0/node-0/motherboard-0/dimmconn-2/dimm-0
                      DIMM3_Temp |      DIMM3 |  0x20  | 0x01 | 0x69 |    3 |    6 | /sys-0/node-0/motherboard-0/dimmconn-3/dimm-0
                      DIMM3_Func |      DIMM3 |  0x20  | 0x0C | 0x21 |    3 |    6 | /sys-0/node-0/motherboard-0/dimmconn-3/dimm-0
-                  CENTAUR0_Temp |   CENTAUR0 |  0xD1  | 0x01 | 0x65 |    0 |    0 | /sys-0/node-0/motherboard-0/membuf-0
-                  CENTAUR0_Func |   CENTAUR0 |  0xD1  | 0x0C | 0x2E |    0 |    0 | /sys-0/node-0/motherboard-0/membuf-0
+                  CENTAUR0_Temp |   CENTAUR0 |  0xD1  | 0x01 | 0x65 |    0 |    2 | /sys-0/node-0/motherboard-0/membuf-0
+                  CENTAUR0_Func |   CENTAUR0 |  0xD1  | 0x0C | 0x2E |    0 |    2 | /sys-0/node-0/motherboard-0/membuf-0
                       CPU0_Temp |       CPU0 |  0x03  | 0x01 | 0x0D |    0 |    1 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc
                       CPU0_Func |       CPU0 |  0x03  | 0x07 | 0x2F |    0 |    1 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc
                      CORE0_Temp |      CORE0 |  0xD0  | 0x01 | 0x6A |    0 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0
@@ -77,4 +78,4 @@
                      CORE5_Func |      CORE5 |  0xD0  | 0x07 | 0x27 |    5 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0
                      CORE6_Temp |      CORE6 |  0xD0  | 0x01 | 0x70 |    6 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0
                      CORE6_Func |      CORE6 |  0xD0  | 0x07 | 0x28 |    6 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0
-         OCC0_OCC_Active_Sensor |       OCC0 |  0xD2  | 0x07 | 0x08 |    0 |    0 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/occ-0
+         OCC0_OCC_Active_Sensor |       OCC0 |  0xD2  | 0x07 | 0x08 |    0 |    1 | /sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/occ-0
