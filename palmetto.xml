@@ -1193,63 +1193,10 @@
 		</enumerator>
 </enumerationType>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm_func_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x1F</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-5/core-0/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x26</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/apss-0/PCIE_Proc1_Power</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>PCIE_Proc1_Power</value>
-	</property>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor14</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x90</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor13</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x8F</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor15</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x91</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x74</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x6C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1268,13 +1215,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x25</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/cpu_func_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x2F</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1307,6 +1247,463 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/system_event_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x35</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pci_clk_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x38</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard_fault_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x34</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x77</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x7B</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/apss-0/Proc3_Power</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>Proc3_Power</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/dimm_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x30</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x67</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0/cpucore_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x28</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-12/core-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value>CORE9</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>9</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x78</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x70</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/apss-0/Memory_Proc1_Power</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>Memory_Proc1_Power</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/occ-0/occ_active_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x08</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-14/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x81</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/apss-0/IO_A_Power</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>IO_A_Power</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x85</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-10/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x7D</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value>CORE10</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>10</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0/cpucore_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x2C</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x6F</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x66</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value>CORE1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/pci_link_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x31</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-11/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x72</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/ps_derating_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x36</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor7</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x89</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor6</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x88</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor9</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x8B</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor8</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x8A</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-10/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x71</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0/cpucore_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x23</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor1</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x83</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-5/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x6E</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor0</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x82</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor3</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x85</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor2</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x84</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/ref_clk_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x37</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor5</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x87</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor4</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x86</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>DIMM0</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>3</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value>CORE6</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>6</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x6A</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-14/core-0/cpucore_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x2D</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>dimm-0</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>DIMM1</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>4</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>node-0</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>PLANAR</value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value>2</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0</id>
+	<property>
+	<id>FRU_NAME</id>
+	<value>CORE2</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0/cpucore_freq_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x7C</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x1F</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor14</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x90</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/apss-0/PCIE_Proc1_Power</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>PCIE_Proc1_Power</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor13</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x8F</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/apss_sensor15</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x91</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x74</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0/cpucore_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x6C</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/cpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x2F</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-4/core-0</id>
 	<property>
 	<id>FRU_NAME</id>
@@ -1332,24 +1729,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/system_event_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x35</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/apss_sensor10</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x8C</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/pci_clk_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x38</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1389,10 +1772,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard_fault_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-12/core-0/cpucore_freq_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x34</value>
+	<value>0x7F</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/boot_count_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x09</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1407,10 +1797,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/boot_count_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-4/core-0/cpucore_freq_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x09</value>
+	<value>0x79</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1418,17 +1808,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x2E</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/apss-0/Proc3_Power</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>Proc3_Power</value>
-	</property>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1443,24 +1822,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/dimm_freq_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-11/core-0/cpucore_freq_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x30</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0/cpucore_func_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x28</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x67</value>
+	<value>0x7E</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1468,17 +1833,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x24</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-12/core-0</id>
-	<property>
-	<id>FRU_NAME</id>
-	<value>CORE9</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>9</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1496,10 +1850,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0/cpucore_temp_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x6B</value>
+	<value>0x21</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1510,10 +1864,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm_func_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0/cpucore_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x21</value>
+	<value>0x6B</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1521,6 +1875,13 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x68</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/cpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x0D</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1543,53 +1904,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/cpu_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x0D</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-12/core-0/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x2B</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x70</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/occ-0/occ_active_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x08</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/apss-0/Memory_Proc1_Power</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>Memory_Proc1_Power</value>
-	</property>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/apss-0/IO_A_Power</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>IO_A_Power</value>
-	</property>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x85</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1644,35 +1962,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0/cpucore_freq_sensor</id>
 	<property>
-	<id>FRU_NAME</id>
-	<value>CORE10</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>10</value>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x80</value>
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-13/core-0/cpucore_func_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-5/core-0/cpucore_freq_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x2C</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x6F</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x66</value>
+	<value>0x7A</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1695,24 +1995,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0</id>
-	<property>
-	<id>FRU_NAME</id>
-	<value>CORE1</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>1</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/pci_link_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x31</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/fw_boot_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -1720,45 +2002,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-11/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x72</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/os_boot_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x32</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/ps_derating_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x36</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor7</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x89</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor6</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x88</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor9</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x8B</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1781,48 +2028,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/apss_sensor8</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x8A</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-10/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x71</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-2/core-0/cpucore_func_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x23</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor1</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x83</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-5/core-0/cpucore_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x6E</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor0</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x82</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0</id>
 	<property>
 	<id>FRU_NAME</id>
@@ -1834,64 +2039,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/apss_sensor3</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x85</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/host_status_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x04</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor2</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x84</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/ref_clk_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x37</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor5</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x87</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/apss_sensor4</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x86</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>dimm-0</value>
-	</property>
-	<property>
-	<id>FRU_NAME</id>
-	<value>DIMM0</value>
-	</property>
-	<property>
-	<id>FRU_ID</id>
-	<value>3</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1903,17 +2054,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>11</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-9/core-0</id>
-	<property>
-	<id>FRU_NAME</id>
-	<value>CORE6</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1935,17 +2075,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0/cpucore_temp_sensor</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-1/core-0/cpucore_freq_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x6A</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-14/core-0/cpucore_func_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x2D</value>
+	<value>0x76</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1982,59 +2115,10 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>dimm-0</value>
-	</property>
-	<property>
-	<id>FRU_NAME</id>
-	<value>DIMM1</value>
-	</property>
-	<property>
-	<id>FRU_ID</id>
-	<value>4</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>1</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-6/core-0/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x27</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0</id>
-	<property>
-	<id>INSTANCE_ID</id>
-	<value>node-0</value>
-	</property>
-	<property>
-	<id>FRU_NAME</id>
-	<value>PLANAR</value>
-	</property>
-	<property>
-	<id>FRU_ID</id>
-	<value>2</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>0</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/proc/ex-3/core-0</id>
-	<property>
-	<id>FRU_NAME</id>
-	<value>CORE2</value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value>2</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -3389,6 +3473,7 @@
 	<position>-1</position>
 	<hidden_child_id>cpucore_temp_sensor</hidden_child_id>
 	<hidden_child_id>cpucore_func_sensor</hidden_child_id>
+	<hidden_child_id>cpucore_freq_sensor</hidden_child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
@@ -3518,6 +3603,61 @@
 	<attribute>
 		<id>IPMI_SENSOR_TYPE</id>
 		<default>0x07</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>cpucore_freq_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<library_target>false</library_target>
+	<instance_name>cpucore_freq_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Freq</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC1</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
