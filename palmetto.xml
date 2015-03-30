@@ -1296,6 +1296,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/apss-0/Ground_Sense</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>Ground_Sense</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/system_event_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -1378,6 +1389,17 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>9</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/apss-0/12V_Sense</id>
+	<property>
+	<id>INSTANCE_ID</id>
+	<value>12V_Sense</value>
+	</property>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -1526,13 +1548,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/slot_x16-1/pciecard_x16-0</id>
-	<property>
-	<id>IO_CONFIG_SELECT</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/spd</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
@@ -1555,6 +1570,13 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/slot_x16-1/pciecard_x16-0</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11265,7 +11287,7 @@
 	<position>-1</position>
 	<attribute>
 		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default></default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
@@ -11340,7 +11362,7 @@
 	<position>-1</position>
 	<attribute>
 		<id>ADC_CHANNEL_ASSIGNMENT</id>
-		<default></default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
