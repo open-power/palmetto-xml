@@ -1597,7 +1597,7 @@
 	<id>/sys-0/ps_derating_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x36</value>
+	<value>0x33</value>
 	</property>
 </globalSetting>
 <globalSetting>
