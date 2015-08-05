@@ -2690,10 +2690,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MSS_MBA_ADDR_INTERLEAVE_BIT</id>
 		<default>24</default>
 	</attribute>
@@ -3765,6 +3761,10 @@
 	<attribute>
 		<id>RNG_BASE_ADDR</id>
 		<default>1,0x0003FFFF40000000,0x4000,0x1000,0</default>
+    </attribute>
+    <attribute>
+		<id>MSS_INTERLEAVE_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
