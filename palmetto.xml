@@ -2685,6 +2685,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+	        <id>BMC_FRU_ID</id>
+	        <default>15</default>
+	</attribute>
+	<attribute>
 		<id>FRU_NAME</id>
 		<default></default>
 	</attribute>
